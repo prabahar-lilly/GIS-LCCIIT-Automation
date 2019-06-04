@@ -7,10 +7,10 @@ this.loginp = function(){
     browser.get('https://cirr-lcci-it-portal-vue-dev.herokuapp.com/');
 
     var username = element(by.id('username'));
-    username.sendKeys('C263749');
+    username.sendKeys('');
 
     var pass = element(by.id('password'));
-    pass.sendKeys('Ankit@207');
+    pass.sendKeys('');
 
     var signon = element(by.css('.ping-button.normal.allow'));
     signon.click();
